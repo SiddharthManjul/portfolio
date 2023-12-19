@@ -1,9 +1,9 @@
 import * as React from "react";
-import {Button} from "@nextui-org/button";
+import NavbarComponent from "./components/navbar";
 
 function App() {
   return (
-    <Button onClick={() => alert("Button clicked")}>Press me</Button>
+    <NavbarComponent />
   );
 }
 
