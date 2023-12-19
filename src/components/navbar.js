@@ -1,27 +1,37 @@
 import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
+import ThemeSwitcher from "./themeSwitcher";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  Link,
+} from "@nextui-org/react";
 
 export default function App() {
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar shouldHideOnScroll isBordered>
       <NavbarBrand>
-        <p className="font-bold text-inherit">Siddharth Manjul</p>
+        <p color="foreground" className="font-bold uppercase font-rubik text-4xl">Siddharth Manjul</p>
       </NavbarBrand>
-      <NavbarContent className="font-josefin sm:flex gap-4" justify="center">
+      <NavbarContent className="font-josefin sm:flex gap-8 uppercase" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link className="text-2xl font-bold" color="foreground" href="#">
             Blogs
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" className="text-green-400">
-            Customers
+          <Link className="text-2xl font-bold" href="#" color="foreground">
+            Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
+          <Link className="text-2xl font-bold" color="foreground" href="#">
+            Contact
           </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <ThemeSwitcher />
         </NavbarItem>
       </NavbarContent>
     </Navbar>

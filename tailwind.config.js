@@ -16,10 +16,39 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        josefin: ['Josefin Slab', 'sans-serif']
-      }
+        josefin: ["Josefin Slab", "sans-serif"],
+        rubik: ["Rubik Doodle Shadow"],
+      },
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [
+    nextui({
+      themes: {
+        light: {
+          colors: {
+            background: "#A5EEFD", // or DEFAULT
+            foreground: "#11181C", // or 50 to 900 DEFAULT
+            primary: {
+              //... 50 to 900
+              foreground: "#FFFFFF",
+              DEFAULT: "#D7F8FE",
+            },
+            // ... rest of the colors
+          },
+        },
+        dark: {
+          colors: {
+            background: "#000000", // or DEFAULT
+            foreground: "#ECEDEE", // or 50 to 900 DEFAULT
+            primary: {
+              //... 50 to 900
+              foreground: "#FFFFFF",
+              DEFAULT: "#053B48",
+            },
+          },
+        },
+      },
+    }),
+  ],
 };
