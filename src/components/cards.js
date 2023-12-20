@@ -14,7 +14,7 @@ import consultancy from "../images/consultancy.jpeg";
 const Banner = () => {
   return (
     <div>
-      <div className="overflow-auto w-full justify-center mt-16 h-max gap-2 grid grid-cols-12 grid-rows-2 px-16">
+      <div className="overflow-auto w-full justify-center pt-8 h-max gap-2 grid grid-cols-12 grid-rows-2 px-16">
         <Card className="col-span-12 sm:col-span-4 h-80">
           <CardHeader className="absolute z-10 bottom-1 flex-col !items-start">
             <p className="font-josefin uppercase font-bold text-xl text-white">

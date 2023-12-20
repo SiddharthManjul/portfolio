@@ -5,31 +5,31 @@ import MoonIcon from "./moonIcon";
 import SunIcon from "./sunIcon";
 
 const ThemeSwitcher = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [lightMode, setLightMode] = useState(false);
   const { setTheme } = useTheme();
 
   useEffect(() => {
     // Set initial theme
-    setTheme(darkMode ? "dark" : "light");
-  }, [darkMode]);
+    setTheme(lightMode ? "light" : "dark");
+  }, [lightMode]);
 
-  const toggleDarkMode = () => {
-    setDarkMode((prevDarkMode) => !prevDarkMode);
+  const toggleLightMode = () => {
+    setLightMode((prevDarkMode) => !prevDarkMode);
   };
 
   return (
     <div>
       <Switch
-        checked={darkMode}
-        onChange={toggleDarkMode}
+        checked={lightMode}
+        onChange={toggleLightMode}
         defaultSelected
         size="lg"
         color="primary"
         thumbIcon={({ isSelected, className }) =>
           isSelected ? (
-            <SunIcon className={className} />
-          ) : (
             <MoonIcon className={className} />
+          ) : (
+            <SunIcon className={className} />
           )
         }
       />
