@@ -1,25 +1,25 @@
 import React from "react";
 import Banner from "../components/cards";
-import introside from "../images/introside.png";
+import web2 from "../images/web2.jpg";
 
 const HomePage = () => {
   return (
     <div className="">
-      <div className="mx-auto container py-28 flex">
+      <div className="flex">
         <div>
           <img
-            className="h-64 max-w-3xl mt-8"
-            src={introside}
+            className="max-h-3xl max-w-3xl rounded-r-full"
+            src={web2}
             alt="introsidephoto"
           />
         </div>
-        <div>
-          <p className="flex font-josefin justify-center text-xl uppercase font-bold text-center">
+        <div className="mx-auto container py-28">
+          <p className="flex font-josefin justify-center text-xl uppercase font-bold text-center pb-8">
             Hello World! I'm Siddharth Manjul, a Frontend Developer with a
             Passion for Blockchain!
           </p>
-          <p className="flex justify-center capitalize gap-x-8 font-rubik text-xl font-extrabold mt-4">
-            frontend developer | blockchain enthusiast | code explorer | learner
+          <p className="flex justify-center text-center capitalize font-rubik text-xl font-extrabold mx-4 pb-8">
+            | frontend developer | blockchain enthusiast | code explorer |  
           </p>
           <p className="flex justify-center font-josefin mt-4 text-justify mx-12">
             As a frontend developer, I craft immersive and user-friendly web
@@ -37,13 +37,6 @@ const HomePage = () => {
             decentralized applications (DApps), and the idea of a transparent
             and tamper-resistant ledger resonate deeply with me.
           </p>
-        </div>
-        <div>
-          <img
-            className="h-64 max-w-3xl mt-8"
-            src={introside}
-            alt="introsidephoto"
-          />
         </div>
       </div>
       <div className="mx-auto container">
