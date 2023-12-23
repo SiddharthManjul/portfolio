@@ -1,0 +1,17 @@
+As a frontend developer, I craft immersive and user-friendly web
+            experiences, seamlessly blending creativity with technical prowess.
+            My journey began with pixels and code, where I fell in love with
+            turning designs into interactive, responsive, and visually appealing
+            websites. I specialize in languages like JavaScript, & Python &
+            frameworks like Reactjs, Nextjs & React Native constantly pushing
+            the boundaries of what's possible on the client side and SSR with
+            next! But that's not all! My enthusiasm extends beyond the
+            conventional realms of web development into the revolutionary world
+            of blockchain technology. I'm captivated by the decentralized nature
+            of blockchain, its potential to disrupt industries, and the promise
+            of creating trust in trustless environments. Smart contracts,
+            decentralized applications (DApps), and the idea of a transparent
+            and tamper-resistant ledger resonate deeply with me.
+
+
+Passionate frontend developer with expertise in JavaScript, Python, React.js, Next.js, and React Native. Blending creativity with technical skills, I create immersive web experiences and explore the revolutionary potential of blockchain, focusing on decentralized applications, smart contracts, decentralized finance, and transparent ledgers.

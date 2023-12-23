@@ -18,6 +18,7 @@ module.exports = {
       fontFamily: {
         josefin: ["Josefin Slab", "sans-serif"],
         rubik: ["Rubik Doodle Shadow"],
+        josefinSans: ["Josefin Sans", "sans-serif"]
       },
     },
   },
@@ -27,7 +28,7 @@ module.exports = {
       themes: {
         light: {
           colors: {
-            background: "#A5EEFD", // or DEFAULT
+            background: "#A1A1AA", // or DEFAULT
             foreground: "#11181C", // or 50 to 900 DEFAULT
             primary: {
               //... 50 to 900

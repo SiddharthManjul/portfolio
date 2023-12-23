@@ -11,7 +11,6 @@ import {
   Link,
 } from "@nextui-org/react";
 
-import Blogs from "../pages/blogs";
 
 const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
