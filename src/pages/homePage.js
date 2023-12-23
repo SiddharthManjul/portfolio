@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../components/cards";
 import web2 from "../images/web2.jpg";
+import { Image } from "@nextui-org/react";
+import "./custom.css";
 
 const HomePage = () => {
   return (
@@ -8,18 +10,18 @@ const HomePage = () => {
       <div className="flex">
         <div className="">
           <img
-            className="max-h-3xl max-w-3xl rounded-r-full pr-20"
+            className="max-h-3xl max-w-3xl rounded-r-full pr-20 min-[400px]:hidden md:block"
             src={web2}
             alt="introsidephoto"
           />
         </div>
-        <div className="w-full py-28 pr-20 w-full">
+        <div className="w-full py-28 pr-20 w-full sm:mx-auto sm:container">
           <p className="flex font-josefinSans text-5xl uppercase font-bold text-left pb-8 tracking-wide leading-relaxed">
             Hello World! I'm Siddharth Manjul, a Frontend Developer with a
             Passion for Blockchain!
           </p>
           <p className="text-justify font-josefin font-bold text-lg">
-            Passionate frontend developer with expertise in JavaScript, 
+            Passionate frontend developer with expertise in JavaScript, Python,
             React.js, Next.js, and React Native. Blending creativity with
             technical skills, I create immersive web experiences and explore the
             revolutionary potential of blockchain, focusing on decentralized

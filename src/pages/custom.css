@@ -1,0 +1,7 @@
+@media screen and (min-wdith: 768px) {
+  .hide_image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

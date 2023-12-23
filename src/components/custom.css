@@ -1,0 +1,11 @@
+.gradient_brand {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #52D3D8, #E26EE5);
+}
+
+.gradient_option {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3887BE, #793FDF);
+  }

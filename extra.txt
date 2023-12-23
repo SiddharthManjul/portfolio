@@ -15,3 +15,5 @@ As a frontend developer, I craft immersive and user-friendly web
 
 
 Passionate frontend developer with expertise in JavaScript, Python, React.js, Next.js, and React Native. Blending creativity with technical skills, I create immersive web experiences and explore the revolutionary potential of blockchain, focusing on decentralized applications, smart contracts, decentralized finance, and transparent ledgers.
+
+className="text-justify font-josefin font-bold text-lg text-green-300"

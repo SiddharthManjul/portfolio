@@ -10,8 +10,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <NextUIProvider>
     <React.StrictMode>
-      <NextThemesProvider attribute="class" defaultTheme="dark">
-        <App />
+      <NextThemesProvider>
+        <main className="dark text-foreground bg-background">
+          <App />
+        </main>
       </NextThemesProvider>
     </React.StrictMode>
   </NextUIProvider>

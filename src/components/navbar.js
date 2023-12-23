@@ -11,6 +11,8 @@ import {
   Link,
 } from "@nextui-org/react";
 
+import "./custom.css";
+
 
 const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -28,7 +30,7 @@ const NavbarComponent = () => {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <p className="font-bold text-4xl font-rubik uppercase text-inherit">
+          <p className="font-bold text-4xl font-rubik uppercase text-inherit gradient_brand">
             siddharth manjul
           </p>
         </NavbarBrand>
@@ -36,13 +38,13 @@ const NavbarComponent = () => {
 
       <NavbarContent className="hidden sm:flex gap-8" justify="center">
         <NavbarBrand>
-          <p className="font-bold text-4xl pr-64 font-rubik uppercase text-inherit">
+          <p className="font-bold text-4xl pr-64 font-rubik uppercase text-inherit gradient_brand">
             Siddharth manjul
           </p>
         </NavbarBrand>
         <NavbarItem>
           <Link
-            className="font-bold text-xl uppercase font-josefin"
+            className="font-bold text-xl uppercase font-josefinSans gradient_option"
             color="foreground"
             href="Blogs"
           >
@@ -51,7 +53,7 @@ const NavbarComponent = () => {
         </NavbarItem>
         <NavbarItem>
           <Link
-            className="font-bold text-xl uppercase font-josefin"
+            className="font-bold text-xl uppercase font-josefinSans gradient_option"
             href="#"
             aria-current="page"
             color="foreground"
@@ -61,16 +63,16 @@ const NavbarComponent = () => {
         </NavbarItem>
         <NavbarItem>
           <Link
-            className="font-bold text-xl uppercase font-josefin"
+            className="font-bold text-xl uppercase font-josefinSans gradient_option"
             color="foreground"
             href="#"
           >
             Contact
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        {/* <NavbarItem>
           <ThemeSwitcher />
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
 
       <NavbarMenu>
