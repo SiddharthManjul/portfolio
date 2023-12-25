@@ -10,7 +10,7 @@ import {
 import blogCardImage from "../images/blogCardImage.jpeg";
 import consultancy from "../images/consultancy.jpeg";
 
-const Banner = () => {
+const BannerCards = () => {
   return (
     <div>
       <div className="overflow-auto w-full justify-center pt-8 h-max gap-2 grid grid-cols-12 grid-rows-2 px-16">
@@ -41,7 +41,7 @@ const Banner = () => {
               Need Support? Hop On!
             </h4>
           </CardHeader>
-          <a href="https://calendly.com/siddharthmanjul/30min">
+          <a href="https://calendly.com/siddharthmanjul/30min" target="_blank">
             <Image
               removeWrapper
               alt="Card background"
@@ -131,4 +131,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default BannerCards;

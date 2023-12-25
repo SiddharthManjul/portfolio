@@ -5,3 +5,15 @@
     justify-content: space-between;
   }
 }
+
+.gradient_intro {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #52d3d8, #e26ee5);
+}
+
+.gradient_about {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #3887be, #793fdf);
+}

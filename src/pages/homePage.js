@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../components/cards";
+import BannerCards from "../components/cards";
 import web2 from "../images/web2.jpg";
 import { Image } from "@nextui-org/react";
 import "./custom.css";
@@ -7,20 +7,20 @@ import "./custom.css";
 const HomePage = () => {
   return (
     <div className="">
-      <div className="flex">
+      <div className="flex pb-12">
         <div className="">
           <img
-            className="max-h-3xl max-w-3xl rounded-r-full pr-20 min-[400px]:hidden md:block"
+            className="max-h-2xl max-w-2xl rounded-r-full pr-20 min-[400px]:hidden md:block"
             src={web2}
             alt="introsidephoto"
           />
         </div>
-        <div className="w-full py-28 pr-20 w-full sm:mx-auto sm:container">
-          <p className="flex font-josefinSans text-5xl uppercase font-bold text-left pb-8 tracking-wide leading-relaxed">
+        <div className="w-full md:py-8 pr-28 w-full min-[400px]:m-12 min-[400px]:ml-0 min-[400px]:pl-12 md:pl-0 min-[400px]:pr-0 min-[400px]:py-0">
+          <p className="flex font-josefinSans md:text-4xl min-[400px]:text-xl min-[400px]:text-center uppercase font-bold text-left pb-8 md:tracking-wide md:leading-normal gradient_intro">
             Hello World! I'm Siddharth Manjul, a Frontend Developer with a
             Passion for Blockchain!
           </p>
-          <p className="text-justify font-josefin font-bold text-lg">
+          <p className="text-justify font-josefin font-bold text-lg gradient_about leading-snug">
             Passionate frontend developer with expertise in JavaScript, Python,
             React.js, Next.js, and React Native. Blending creativity with
             technical skills, I create immersive web experiences and explore the
@@ -31,7 +31,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="mx-auto container">
-        <Banner />
+        <BannerCards />
       </div>
     </div>
   );

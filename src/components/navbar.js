@@ -30,17 +30,17 @@ const NavbarComponent = () => {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <p className="font-bold text-4xl font-rubik uppercase text-inherit gradient_brand">
+          <Link href="/" className="font-bold text-3xl font-rubik uppercase text-inherit gradient_brand">
             siddharth manjul
-          </p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-8" justify="center">
         <NavbarBrand>
-          <p className="font-bold text-4xl pr-64 font-rubik uppercase text-inherit gradient_brand">
+          <Link href="/" className="font-bold text-3xl pr-32 font-rubik uppercase text-inherit gradient_brand">
             Siddharth manjul
-          </p>
+          </Link>
         </NavbarBrand>
         <NavbarItem>
           <Link
@@ -54,7 +54,7 @@ const NavbarComponent = () => {
         <NavbarItem>
           <Link
             className="font-bold text-xl uppercase font-josefinSans gradient_option"
-            href="#"
+            href="Projects"
             aria-current="page"
             color="foreground"
           >
@@ -65,7 +65,7 @@ const NavbarComponent = () => {
           <Link
             className="font-bold text-xl uppercase font-josefinSans gradient_option"
             color="foreground"
-            href="#"
+            href="Contact"
           >
             Contact
           </Link>
@@ -79,11 +79,11 @@ const NavbarComponent = () => {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-              }
+              // color={
+              //   index === 0 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
+              // }
               className="w-full"
-              href="#"
+              href={index === 0 ? 'Blogs' : index === 1 ? 'Projects' : 'Contact'}
               size="lg"
             >
               {item}
