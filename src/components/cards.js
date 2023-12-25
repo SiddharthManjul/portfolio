@@ -1,19 +1,14 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardFooter,
-  Image,
-  Button,
-} from "@nextui-org/react";
+import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
 
 import blogCardImage from "../images/blogCardImage.jpeg";
 import consultancy from "../images/consultancy.jpeg";
+import projectsImg from "../images/projectsImg.jpeg";
 
 const BannerCards = () => {
   return (
     <div>
-      <div className="overflow-auto w-full justify-center pt-8 h-max gap-2 grid grid-cols-12 grid-rows-2 px-16">
+      <div className="overflow-auto w-full justify-center md:pt-12 gap-2 grid grid-cols-12 grid-rows-1 min-[400px]:px-12 md:px-0 min-[400px]:pt-2">
         <Card className="col-span-12 sm:col-span-4 h-80">
           <CardHeader className="absolute z-10 bottom-1 flex-col !items-start">
             <p className="font-josefin uppercase font-bold text-xl text-white">
@@ -51,22 +46,24 @@ const BannerCards = () => {
           </a>
         </Card>
         <Card className="col-span-12 sm:col-span-4 h-80">
-          <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              Supercharged
+          <CardHeader className="absolute z-10 bottom-1 flex-col !items-start">
+            <p className="font-josefin text-xl uppercase font-bold text-white">
+              Projects
             </p>
-            <h4 className="text-white font-medium text-large">
-              Creates beauty like a beast
+            <h4 className="font-josefin text-white font-medium text-large">
+              A Developer's Art!
             </h4>
           </CardHeader>
-          <Image
-            removeWrapper
-            alt="Card background"
-            className="z-0 w-full h-80 object-cover"
-            src="/images/card-example-2.jpeg"
-          />
+          <a href="/projects">
+            <Image
+              removeWrapper
+              alt="Card background"
+              className="z-0 w-full h-80 object-cover"
+              src={projectsImg}
+            />
+          </a>
         </Card>
-        <Card isFooterBlurred className="w-full h-80 col-span-12 sm:col-span-5">
+        {/* <Card isFooterBlurred className="w-full h-80 col-span-12 sm:col-span-5">
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">New</p>
             <h4 className="text-black font-medium text-2xl">Acme camera</h4>
@@ -125,7 +122,7 @@ const BannerCards = () => {
               Get App
             </Button>
           </CardFooter>
-        </Card>
+        </Card> */}
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import BannerCards from "../components/cards";
 import web2 from "../images/web2.jpg";
-import { Image } from "@nextui-org/react";
+import About from "../components/about";
 import "./custom.css";
 
 const HomePage = () => {
@@ -30,8 +30,11 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="mx-auto container">
+      <div className="mx-auto container h-[575px]">
         <BannerCards />
+      </div>
+      <div>
+        <About />
       </div>
     </div>
   );
