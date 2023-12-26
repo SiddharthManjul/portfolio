@@ -6,13 +6,13 @@ const About = () => {
     <>
       <div className="text-center">
         <p
-          className="font-bold text-xl uppercase font-josefinSans gradient_option"
+          className="font-bold text-2xl uppercase font-josefinSans gradient_brand min-[400px]:mt-96 md:mt-0"
           color="foreground"
         >
           About
         </p>
         <div>
-          <p className="text-justify mx-auto container font-josefin gradient_option">
+          <p className="text-justify mx-auto container font-josefin gradient_para">
             As a seasoned frontend developer, I bring a wealth of experience and
             expertise in crafting immersive and user-centric web experiences. My
             journey in the world of pixels and code began with a fervent passion

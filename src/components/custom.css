@@ -1,11 +1,21 @@
 .gradient_brand {
   background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #52D3D8, #E26EE5);
+  background-image: linear-gradient(to right, #52d3d8, #e26ee5);
 }
 
 .gradient_option {
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #3887BE, #793FDF);
-  }
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #3887be, #793fdf);
+}
+
+.gradient_para {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #FAE7F3, #793fdf);
+}
+
+.footer_color {
+  background-color: #0D7377;
+}

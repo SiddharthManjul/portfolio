@@ -14,7 +14,7 @@ const ThemeSwitcher = () => {
   }, [lightMode]);
 
   const toggleLightMode = () => {
-    setLightMode((prevDarkMode) => !prevDarkMode);
+    setLightMode((prevLightMode) => !prevLightMode);
   };
 
   return (
@@ -27,9 +27,9 @@ const ThemeSwitcher = () => {
         color="primary"
         thumbIcon={({ isSelected, className }) =>
           isSelected ? (
-            <MoonIcon className={className} />
-          ) : (
             <SunIcon className={className} />
+          ) : (
+            <MoonIcon className={className} />
           )
         }
       />

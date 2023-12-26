@@ -39,11 +39,15 @@ module.exports = {
             secondary: {
               DEFAULT: "linear-gradient(lime, yellow)",
             },
+            grey: {
+              DEFAULT: "#A1A1AA",
+            },
             // ... rest of the colors
           },
         },
         dark: {
           colors: {
+            grey: "#A1A1AA",
             background: "#000000", // or DEFAULT
             foreground: "#ECEDEE", // or 50 to 900 DEFAULT
             primary: {
@@ -53,6 +57,10 @@ module.exports = {
             },
             secondary: {
               DEFAULT: "linear-gradient(lime, yellow)",
+            },
+            grey: {
+              foreground: "#A1A1AA",
+              DEFAULT: "#A1A1AA",
             },
           },
         },

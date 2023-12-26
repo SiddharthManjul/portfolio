@@ -17,7 +17,7 @@ import "./custom.css";
 const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Blogs", "Projects", "Contact"];
+  const menuItems = ["About","Blogs", "Projects", "Contact"];
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} isBordered>
@@ -42,6 +42,15 @@ const NavbarComponent = () => {
             Siddharth manjul
           </Link>
         </NavbarBrand>
+        <NavbarItem>
+          <Link
+            className="font-bold text-xl uppercase font-josefinSans gradient_option"
+            color="foreground"
+            href="About"
+          >
+            About
+          </Link>
+        </NavbarItem>
         <NavbarItem>
           <Link
             className="font-bold text-xl uppercase font-josefinSans gradient_option"
@@ -83,7 +92,7 @@ const NavbarComponent = () => {
               //   index === 0 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
               // }
               className="w-full"
-              href={index === 0 ? 'Blogs' : index === 1 ? 'Projects' : 'Contact'}
+              href={index === 0 ? 'About' : index === 1 ? 'Blogs' : index === 2 ? 'Projects' : 'Contact'}
               size="lg"
             >
               {item}
