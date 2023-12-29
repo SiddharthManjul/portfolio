@@ -8,10 +8,10 @@ import TechLang from "../components/techLang";
 const HomePage = () => {
   return (
     <div className="">
-      <div className="flex pb-12">
+      <div className="flex pb-4 bg-black rounded-3xl mx-4 my-8">
         <div className="">
           <img
-            className="max-h-2xl max-w-2xl rounded-r-full pr-20 min-[400px]:hidden md:block 2xl:max-w-3xl 2xl:max-h-3xl"
+            className="max-h-2xl max-w-2xl rounded-r-full pr-20 pt-10 min-[400px]:hidden md:block 2xl:max-w-3xl 2xl:max-h-3xl"
             src={web2}
             alt="introsidephoto"
           />
@@ -31,8 +31,10 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="mx-auto container h-[575px]">
-        <BannerCards />
+      <div>
+        <div className="mx-4">
+          <BannerCards />
+        </div>
       </div>
     </div>
   );

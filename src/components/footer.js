@@ -7,8 +7,8 @@ import discordIcon from "../images/discordIcon.svg";
 const Footer = () => {
     return (
         <>
-            <div className="w-full h-24" color="grey">
-                <div className="flex flex-row gap-x-4">
+            <div className="w-full h-24 mt-auto bg-cyan-950" color="grey">
+                <div className="flex flex-row gap-x-4 justify-center">
                     <img className="w-8 h-8 bg-white rounded-lg" src={twitterIcon} alt="Twitter"></img>
                     <img className="w-8 h-8 rounded-lg" src={linkedinIcon} alt="Linkedin"></img>
                     <img className="w-8 h-8 rounded-lg" src={instagramIcon} alt="Instagram"></img>

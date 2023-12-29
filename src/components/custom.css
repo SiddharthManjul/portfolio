@@ -1,13 +1,5 @@
-.gradient_brand {
-  background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(to right, #52d3d8, #e26ee5);
-}
-
-.gradient_option {
-  background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(to right, #3887be, #793fdf);
+.text-dark-100 {
+  color: #212A3E;
 }
 
 .gradient_para {
@@ -18,4 +10,8 @@
 
 .footer_color {
   background-color: #0D7377;
+}
+
+.font_size {
+  font-size: 3rem;
 }
