@@ -39,10 +39,10 @@ const Footer = () => {
           </Button>
         </div>
         <div className="flex flex-row gap-x-4">
-          <a href=""><img className="w-8 h-8" src={twitter} alt="Twitter"></img></a>
-          <a href=""><img className="w-8 h-8" src={linkedin} alt="Linkedin"></img></a>
-          <a href=""><img className="w-8 h-8" src={instagram} alt="Instagram"></img></a>
-          <a href=""><img className="w-8 h-8 rounded-lg" src={discord} alt="Discord"></img></a>
+          <a href="https://twitter.com/ManjulSiddharth" target="_blank"><img className="w-8 h-8" src={twitter} alt="Twitter"></img></a>
+          <a href="https://www.linkedin.com/in/siddharth-manjul/" target="_blank"><img className="w-8 h-8" src={linkedin} alt="Linkedin"></img></a>
+          <a href="https://www.instagram.com/_siddharthmanjul_/" target="_blank"><img className="w-8 h-8" src={instagram} alt="Instagram"></img></a>
+          <a href="https://discordapp.com/users/703073108659142756" target="_blank"><img className="w-8 h-8 rounded-lg" src={discord} alt="Discord"></img></a>
         </div>
       </div>
     </>

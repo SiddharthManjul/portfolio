@@ -72,7 +72,7 @@ const About = () => {
                 technologies
               </p>
               <div className="">
-                <div className="flex md:flex-row min-[400px]:flex-col bg-grey p-4 rounded-t-3xl gap-x-1">
+                <div className="flex md:flex-row min-[400px]:flex-col bg-cyan-200 p-4 place-items-center rounded-t-3xl gap-x-1">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
                     title="Mongodb"
@@ -137,7 +137,7 @@ const About = () => {
                     height="70"
                   />
                 </div>
-                <div className="flex md:flex-row min-[400px]:flex-col bg-grey p-4 rounded-b-3xl gap-x-1">
+                <div className="flex md:flex-row min-[400px]:flex-col bg-cyan-200 p-4 place-items-center rounded-b-3xl gap-x-1">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg"
                     title="Arduino"
@@ -205,64 +205,64 @@ const About = () => {
               </div>
             </div>
             <div>
-              <p>languages</p>
+              <p className="capitalize font-josefin text-xl text-center font-semibold my-2">languages</p>
               <div>
-                <div>
+                <div className="flex md:flex-row min-[400px]:flex-col bg-cyan-200 p-4 place-items-center rounded-3xl gap-x-1">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     title="Javascript"
                     alt="Javascript"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                     title="Typescript"
                     alt="Typescript"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
                     title="Python"
                     alt="Python"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
                     title="Html"
                     alt="Html"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
                     title="CSS"
                     alt="CSS"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
                     title="C++"
                     alt="C++"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
                     title="Solidity"
                     alt="Solidity"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original-wordmark.svg"
                     title="Swift"
                     alt="Swift"
-                    width="40"
-                    height="40"
+                    width="70"
+                    height="70"
                   />
                 </div>
               </div>
