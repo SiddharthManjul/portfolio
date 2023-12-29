@@ -204,6 +204,69 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <div>
+              <p>languages</p>
+              <div>
+                <div>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    title="Javascript"
+                    alt="Javascript"
+                    width="40"
+                    height="40"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    title="Typescript"
+                    alt="Typescript"
+                    width="40"
+                    height="40"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+                    title="Python"
+                    alt="Python"
+                    width="40"
+                    height="40"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                    title="Html"
+                    alt="Html"
+                    width="40"
+                    height="40"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+                    title="CSS"
+                    alt="CSS"
+                    width="40"
+                    height="40"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                    title="C++"
+                    alt="C++"
+                    width="40"
+                    height="40"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
+                    title="Solidity"
+                    alt="Solidity"
+                    width="40"
+                    height="40"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original-wordmark.svg"
+                    title="Swift"
+                    alt="Swift"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
