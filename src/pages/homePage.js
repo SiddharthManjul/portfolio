@@ -1,9 +1,7 @@
 import React from "react";
 import BannerCards from "../components/cards";
 import web2 from "../images/web2.jpg";
-import About from "../components/about";
 import "./custom.css";
-import TechLang from "../components/techLang";
 
 const HomePage = () => {
   return (
