@@ -16,7 +16,7 @@ import "./custom.css";
 const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["About", "Blogs", "Projects", "Contact"];
+  const menuItems = ["About", "Projects", "Contact"]; // include blogs between about and project later!
 
   return (
     <Navbar
@@ -59,7 +59,7 @@ const NavbarComponent = () => {
             About
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link
             className="font-bold text-xl uppercase font-josefinSans text-dark-100"
             color="foreground"
@@ -67,7 +67,7 @@ const NavbarComponent = () => {
           >
             Blogs
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
         <NavbarItem>
           <Link
             className="font-bold text-xl uppercase font-josefinSans text-dark-100"
