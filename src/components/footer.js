@@ -5,6 +5,7 @@ import linkedin from "../images/linkedin.png";
 import instagram from "../images/instagram.png";
 import discord from "../images/discord.png";
 import webentia from "../images/webentia.png";
+import github from "../images/github.png"
 
 import "./custom.css";
 
@@ -64,6 +65,16 @@ const Footer = () => {
               className="w-8 h-8 rounded-lg"
               src={discord}
               alt="Discord"
+            ></img>
+          </a>
+          <a
+            href="https://github.com/SiddharthManjul"
+            target="_blank"
+          >
+            <img
+              className="w-8 h-8 rounded-lg"
+              src={github}
+              alt="Github"
             ></img>
           </a>
         </div>
