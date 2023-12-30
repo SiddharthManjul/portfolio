@@ -31,18 +31,41 @@ const Footer = () => {
         </div>
         <div className="justify-center font-josefinSans">
           <p>Want to Connect or Collaborate? </p>
-          <Button
-            radius="full"
-            className="bg-slate-900 ml-20 text-white shadow-lg"
-          >
-            Connect
-          </Button>
+          <a href="https://discord.gg/d9rZ7d9s" target="_blank">
+            <Button
+              radius="full"
+              className="bg-slate-900 ml-20 text-white shadow-lg"
+            >
+              Connect
+            </Button>
+          </a>
         </div>
         <div className="flex flex-row gap-x-4">
-          <a href="https://twitter.com/ManjulSiddharth" target="_blank"><img className="w-8 h-8" src={twitter} alt="Twitter"></img></a>
-          <a href="https://www.linkedin.com/in/siddharth-manjul/" target="_blank"><img className="w-8 h-8" src={linkedin} alt="Linkedin"></img></a>
-          <a href="https://www.instagram.com/_siddharthmanjul_/" target="_blank"><img className="w-8 h-8" src={instagram} alt="Instagram"></img></a>
-          <a href="https://discordapp.com/users/703073108659142756" target="_blank"><img className="w-8 h-8 rounded-lg" src={discord} alt="Discord"></img></a>
+          <a href="https://twitter.com/ManjulSiddharth" target="_blank">
+            <img className="w-8 h-8" src={twitter} alt="Twitter"></img>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/siddharth-manjul/"
+            target="_blank"
+          >
+            <img className="w-8 h-8" src={linkedin} alt="Linkedin"></img>
+          </a>
+          <a
+            href="https://www.instagram.com/_siddharthmanjul_/"
+            target="_blank"
+          >
+            <img className="w-8 h-8" src={instagram} alt="Instagram"></img>
+          </a>
+          <a
+            href="https://discordapp.com/users/703073108659142756"
+            target="_blank"
+          >
+            <img
+              className="w-8 h-8 rounded-lg"
+              src={discord}
+              alt="Discord"
+            ></img>
+          </a>
         </div>
       </div>
     </>
