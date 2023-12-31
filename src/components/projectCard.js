@@ -7,7 +7,7 @@ const ProjectCard = () => {
   return (
     <div>
       <div className="md:mx-16 min-[400px]:px-8 md:px-0 pt-16">
-        <Card className="py-4  bg-cyan-200">
+        <Card className="py-4 bg-cyan-200">
           <div className="flex md:flex-row min-[400px]:flex-col">
             <div>
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">

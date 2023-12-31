@@ -1,5 +1,4 @@
 import React from "react";
-import ThemeSwitcher from "./themeSwitcher";
 import {
   Navbar,
   NavbarBrand,
@@ -104,8 +103,6 @@ const NavbarComponent = () => {
                 index === 0
                   ? "About"
                   : index === 1
-                  ? "Blogs"
-                  : index === 2
                   ? "Projects"
                   : "Contact"
               }
