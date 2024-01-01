@@ -37,7 +37,7 @@ module.exports = {
               DEFAULT: "#D7F8FE",
             },
             secondary: {
-              DEFAULT: "linear-gradient(lime, yellow)",
+              DEFAULT: "#FFFFFF",
             },
             grey: {
               DEFAULT: "#A1A1AA",
@@ -56,7 +56,7 @@ module.exports = {
               DEFAULT: "#053B48",
             },
             secondary: {
-              DEFAULT: "linear-gradient(lime, yellow)",
+              DEFAULT: "#FFFFFF",
             },
             grey: {
               foreground: "#A1A1AA",
