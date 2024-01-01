@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Sponsor = () => {
   const [formData, setFormData] = useState({
@@ -7,6 +8,8 @@ const Sponsor = () => {
     message: "",
     number: "",
   });
+
+  const navigate = useNavigate();
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -76,6 +79,7 @@ const Sponsor = () => {
               <button
                 className="border-2 border-solid border-sky-600 bg-sky-200 rounded-lg p-2 uppercase mb-4 hover:bg-sky-500 hover:text-slate-100"
                 type="submit"
+                onClick={() => navigate(-1)}
               >
                 Submit
               </button>
