@@ -10,7 +10,7 @@ const About = () => {
             <p className="font-josefinSans text-3xl uppercase mb-4">
               Who I am?!
             </p>
-            <ul className="font-josefin font-medium text-lg min-[400px]:px-8 list-decimal">
+            <ul className="font-josefin font-medium text-lg min-[720px]:px-8 list-decimal">
               <li>
                 Hi! I am a Mechanical Engineer graduated from United College of
                 Engineering & Research in 2023 with grade 6.7 GPA. Also, I'm a
@@ -64,7 +64,7 @@ const About = () => {
         </div>
         <div className="bg-black mx-4 my-8 rounded-3xl">
           <div className="py-8 place-items-center flex flex-col mx-auto container text-justify bg-black gradient_intro">
-            <p className="font-josefinSans md:text-3xl uppercase mb-4 min-[400px]:text-lg">
+            <p className="font-josefinSans md:text-3xl uppercase mb-4 min-[720px]:text-lg">
               technologies & languages
             </p>
             <div>
@@ -72,7 +72,7 @@ const About = () => {
                 technologies
               </p>
               <div className="">
-                <div className="flex md:flex-row min-[400px]:flex-col bg-cyan-200 p-4 place-items-center rounded-t-3xl gap-x-2">
+                <div className="flex md:flex-row min-[720px]:flex-col bg-cyan-200 p-4 place-items-center rounded-t-3xl gap-x-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
                     title="Mongodb"
@@ -137,7 +137,7 @@ const About = () => {
                     height="70"
                   />
                 </div>
-                <div className="flex md:flex-row min-[400px]:flex-col bg-cyan-200 p-4 place-items-center rounded-b-3xl gap-x-2">
+                <div className="flex md:flex-row min-[720px]:flex-col bg-cyan-200 p-4 place-items-center rounded-b-3xl gap-x-2">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg"
                     title="Arduino"
@@ -207,7 +207,7 @@ const About = () => {
             <div>
               <p className="capitalize font-josefin text-xl text-center font-semibold my-2 pt-4">languages</p>
               <div>
-                <div className="flex md:flex-row min-[400px]:flex-col bg-cyan-200 p-4 place-items-center rounded-3xl gap-x-3">
+                <div className="flex md:flex-row min-[720px]:flex-col bg-cyan-200 p-4 place-items-center rounded-3xl gap-x-3">
                   <img
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     title="Javascript"

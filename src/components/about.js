@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div className="text-center">
         <p
-          className="font-bold text-2xl uppercase font-josefinSans gradient_brand min-[400px]:mt-96 md:mt-0"
+          className="font-bold text-2xl uppercase font-josefinSans gradient_brand min-[720px]:mt-96 md:mt-0"
           color="foreground"
         >
           About

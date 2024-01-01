@@ -8,7 +8,7 @@ import projectsImg from "../images/projectsImg.jpeg";
 const BannerCards = () => {
   return (
     <div>
-      <div className="overflow-auto w-full bg-black mb-8 md:px-12 justify-center md:py-12 rounded-3xl gap-2 grid grid-cols-12 grid-rows-1 min-[400px]:p-12 md:p-0">
+      <div className="overflow-auto w-full bg-black mb-8 md:px-12 justify-center md:py-12 rounded-3xl gap-2 grid grid-cols-12 grid-rows-1 min-[720px]:p-12 md:p-0">
         <Card className="col-span-12 sm:col-span-4 h-80">
           <CardHeader className="absolute z-10 bottom-1 flex-col !items-start">
             <p className="font-josefin uppercase font-bold text-xl text-white">

@@ -6,9 +6,9 @@ import greenvestor from "../images/greenvestor.png";
 const ProjectCard = () => {
   return (
     <div>
-      <div className="md:mx-16 min-[400px]:px-8 md:px-0 pt-16">
+      <div className="md:mx-16 min-[720px]:px-8 md:px-0 pt-16">
         <Card className="py-4 bg-cyan-200">
-          <div className="flex md:flex-row min-[400px]:flex-col">
+          <div className="flex md:flex-row min-[720px]:flex-col">
             <div>
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <h4 className="font-bold text-large font-josefinSans">
@@ -53,9 +53,9 @@ const ProjectCard = () => {
           </div>
         </Card>
       </div>
-      <div className="md:mx-16 min-[400px]:px-8 md:px-0 pt-16">
+      <div className="md:mx-16 min-[720px]:px-8 md:px-0 pt-16">
         <Card className="py-4  bg-cyan-200">
-          <div className="flex md:flex-row min-[400px]:flex-col">
+          <div className="flex md:flex-row min-[720px]:flex-col">
             <div>
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <h4 className="font-bold text-large font-josefinSans">

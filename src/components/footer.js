@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className="w-full flex md:flex-row pb-8 mt-auto md:justify-between px-16 min-[400px]:place-items-center text-dark-100 min-[400px]:flex-col min-[400px]:gap-y-4 pt-4"
+        className="w-full flex md:flex-row pb-8 mt-auto md:justify-between px-16 min-[720px]:place-items-center text-dark-100 min-[720px]:flex-col min-[720px]:gap-y-4 pt-4"
         color="grey"
       >
         <div className="font-josefinSans">
